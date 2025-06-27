@@ -1,4 +1,15 @@
-@import url("style/flex.css")
+@import url("style/flex.css");
+@import url("style/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --preto: #000000;
+    --branco: #ffffff;
+    --fonte-principal: "Fjalla One", sans-serif;
+    --fonte-secundaria: "Work Sans", sans-serif;
+}
+
 
 * {
     margin: 0;
