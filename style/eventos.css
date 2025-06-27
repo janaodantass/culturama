@@ -1,0 +1,53 @@
+.titulo__eventos {
+    font-family: var(--fonte-principal);
+    font-size: var(--titulos);
+    padding: 1rem 2.5rem;
+}
+
+.contexto__card {
+    background-color: var(--fundo-cards); 
+    margin: 0 2.4rem 0 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.card__1 {
+    padding: 0 2.5rem;
+    display: block;
+}
+
+.titulo__card-1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-secundario);
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.data__card-1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.cidade__card-1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.cidade__botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao__card-1 {
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 0.5rem 2rem;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    text-decoration: none;
+    margin: 0 1rem 1rem 0;
+}
