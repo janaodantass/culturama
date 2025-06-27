@@ -58,8 +58,7 @@
 
 
 
-<!-- segundo card -->
-
+/* segundo card */
 .segundo__card {
     margin-bottom: 1rem;
 }
@@ -115,7 +114,7 @@
 
 
 
-<!-- terceiro card -->
+/* terceiro card */
 .contexto__card {
     background-color: var(--fundo-cards); 
     margin: 0 2.4rem 0 2.5rem;
@@ -168,7 +167,7 @@
 
 
 
-<!-- quarto card -->
+/* quarto card */
 .contexto__card {
     background-color: var(--fundo-cards); 
     margin: 0 2.4rem 0 2.5rem;
@@ -216,4 +215,20 @@
     font-size: var(--titulo-terciario);
     text-decoration: none;
     margin: 0 1rem 1rem 0;
+}
+
+.quarto__card {
+    padding-bottom: 1.5rem;
+}
+
+
+/* primeiro botão ver mais*/
+.botao__ver-mais1 {
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    margin-left: 8rem;
 }
