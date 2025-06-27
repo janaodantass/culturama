@@ -1,0 +1,62 @@
+.titulo__categorias {
+    font-family: var(--fonte-principal);
+    font-size: var(--titulos);
+    padding: 1rem 2.5rem;
+}
+
+.item__categorias {
+    font-family: var(--fonte-principal);
+    font-size: var(--titulos);
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.shows {
+    background-color: #FFC756;
+    padding: 1.5rem;
+}
+
+.teatro {
+    background-color: #F66139;
+    padding: 1.5rem;
+}
+
+.festivais {
+    background-color: #7F8FFE;
+    padding: 1.5rem;
+}
+
+.cinema {
+    background-color: #56B78C;
+    padding: 1.5rem;
+}
+
+.arte {
+    background-color: #FFC756;
+    padding: 1.5rem;
+}
+
+.fotografia {
+    background-color: #F66139;
+    padding: 1.5rem;
+}
+
+.tecnologia {
+    background-color: #7F8FFE;
+    padding: 1.5rem;
+}
+
+.design {
+    background-color: #56B78C;
+    padding: 1.5rem;
+}
+
+.lista__categorias {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    margin: 0 2.5rem;
+    list-style: none;
+}
+
