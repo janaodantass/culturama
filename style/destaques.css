@@ -1,0 +1,25 @@
+.destaques {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem 1rem;
+}
+
+.titulo__destaques {
+    font-family: var(--fonte-principal);
+    font-size: var(--titulos);
+}
+
+.titulo__imagem {
+    font-family: var(--fonte-principal);
+    font-size: var(--titulo-secundario);
+    bottom: 1rem;
+    position: absolute;
+    background-color: #D9D9D980;
+    color: var(--branco);
+    padding: 1rem;
+}
+
+.imagem__danca {
+    padding: 0 2.5rem;
+    position: relative;
+}
