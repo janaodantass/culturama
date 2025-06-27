@@ -11,7 +11,7 @@
 
 .titulo__imagem {
     font-family: var(--fonte-principal);
-    font-size: var(--titulo-secundario);
+    font-size: var(--titulo-terciario);
     bottom: 1rem;
     position: absolute;
     background-color: #D9D9D980;
