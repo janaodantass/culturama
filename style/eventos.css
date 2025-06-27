@@ -4,6 +4,10 @@
     padding: 1rem 2.5rem;
 }
 
+.proximos__eventos {
+    margin-bottom: 1rem;
+}
+
 .contexto__card {
     background-color: var(--fundo-cards); 
     margin: 0 2.4rem 0 2.5rem;
@@ -43,6 +47,168 @@
 }
 
 .botao__card-1 {
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 0.5rem 2rem;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    text-decoration: none;
+    margin: 0 1rem 1rem 0;
+}
+
+
+
+<!-- segundo card -->
+
+.segundo__card {
+    margin-bottom: 1rem;
+}
+
+.contexto__card {
+    background-color: var(--fundo-cards); 
+    margin: 0 2.4rem 0 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.card__2 {
+    padding: 0 2.5rem;
+    display: block;
+}
+
+.titulo__card-2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-secundario);
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.data__card-2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.cidade__card-2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.cidade__botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao__card-2 {
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 0.5rem 2rem;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    text-decoration: none;
+    margin: 0 1rem 1rem 0;
+}
+
+
+
+
+<!-- terceiro card -->
+.contexto__card {
+    background-color: var(--fundo-cards); 
+    margin: 0 2.4rem 0 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.card__3 {
+    padding: 0 2.5rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+.titulo__card-3 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-secundario);
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.data__card-3 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.cidade__card-3 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.cidade__botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao__card-3 {
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 0.5rem 2rem;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    text-decoration: none;
+    margin: 0 1rem 1rem 0;
+}
+
+
+
+
+<!-- quarto card -->
+.contexto__card {
+    background-color: var(--fundo-cards); 
+    margin: 0 2.4rem 0 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.card__4 {
+    padding: 0 2.5rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+.titulo__card-4 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-secundario);
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.data__card-4 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.cidade__card-4 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.cidade__botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao__card-4 {
     color: var(--branco);
     background-color: var(--preto);
     padding: 0.5rem 2rem;
