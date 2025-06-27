@@ -1,0 +1,169 @@
+.agenda {
+    margin: 2rem 2.5rem 0 2.4rem;
+}
+
+.imagem__agenda {
+    display: block;
+}
+
+.titulo__agenda1 {
+    font-family: var(--fonte-principal);
+    font-size: var(--titulos);
+    padding-bottom: 1rem;
+}
+
+.bloco__agenda1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bloco__esquerdo1 {
+    background-color: var(--bloco-esquerdo);
+    font-family: var(--fonte-principal);
+    padding: 0.5rem 1.6rem;
+    color: var(--branco);
+}
+
+.mes__agenda1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.data__agenda1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hora__agenda1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bloco__direito1 {
+    background-color: var(--fundo-cards);
+    padding: 0.5rem 1.57rem;
+}
+
+.dia__agenda1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-secundario);
+    color: var(--preto);
+    padding-bottom: 2.3rem;
+    padding-top: 0.5rem;
+}
+
+.botao__agenda1 {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    padding: 0.5rem 1rem;
+    background-color: var(--preto);
+    text-decoration: none;
+}
+
+
+
+/* card agenda 2 */
+.bloco__agenda2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bloco__esquerdo2 {
+    background-color: var(--bloco-esquerdo);
+    font-family: var(--fonte-principal);
+    padding: 0.5rem 2rem;
+    color: var(--branco);
+}
+
+.mes__agenda2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.data__agenda2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hora__agenda2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bloco__direito2 {
+    background-color: var(--fundo-cards);
+    padding: 0.5rem;
+}
+
+.dia__agenda2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-secundario);
+    color: var(--preto);
+    padding-bottom: 2.7rem;
+    padding-top: 0.5rem;
+}
+
+.botao__agenda2 {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    padding: 0.5rem 1rem;
+    background-color: var(--preto);
+    text-decoration: none;
+}
+
+
+
+/* card agenda 3 */
+.bloco__agenda3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bloco__esquerdo3 {
+    background-color: var(--bloco-esquerdo);
+    font-family: var(--fonte-principal);
+    padding: 0.5rem 2rem;
+    color: var(--branco);
+}
+
+.mes__agenda3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.data__agenda3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hora__agenda3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bloco__direito3 {
+    background-color: var(--fundo-cards);
+    padding: 0.5rem;
+}
+
+.dia__agenda3 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-secundario);
+    color: var(--preto);
+    padding-bottom: 2.7rem;
+    padding-top: 0.5rem;
+}
+
+.botao__agenda3 {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: var(--titulo-terciario);
+    padding: 0.5rem 1rem;
+    background-color: var(--preto);
+    text-decoration: none;
+}
