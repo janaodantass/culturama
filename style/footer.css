@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--preto);
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.lista__footer {
+    padding-bottom: 0.5rem;
+}
+
+.item__footer {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.titulo__footer {
+    color: var(--branco);
+    font-size: var(--titulo-secundario);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+.contexto__imagemfooter {
+    color: var(--branco);
+    font-weight: 300;
+    font-family: var(--fonte-secundaria);
+}
+
+.logo__footer {
+    padding-top: 10.5rem;
+    padding-left: 1.7rem;
+}
