@@ -12,6 +12,7 @@
 .titulo__imagem {
     font-family: var(--fonte-principal);
     font-size: var(--titulo-terciario);
+    font-weight: 400;
     bottom: 1rem;
     position: absolute;
     background-color: #D9D9D980;
@@ -22,4 +23,24 @@
 .imagem__danca {
     padding: 0 2.5rem;
     position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.linha {
+    width: 40%;
+}
+
+.imagem__destaque {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 720px) {
+    .linha {
+        width: 65%;
+    }
+
+
 }
