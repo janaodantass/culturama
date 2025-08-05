@@ -234,10 +234,10 @@
 .botao__ver-mais2 {
     color: var(--branco);
     background-color: var(--preto);
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 1rem;
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-size: var(--titulo-terciario);
-    margin-left: 8rem;
-    margin-bottom: 2rem;
+    margin: 0 7.5rem;
+    text-align: center;
 }
