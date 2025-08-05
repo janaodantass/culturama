@@ -63,6 +63,61 @@
 @media screen and (min-width: 720px) {
     .categorias {
         display: flex;
+        gap: 1rem;
     }
-}
 
+    .shows {
+        margin: 0;
+        padding: 1rem 7.8rem;
+        margin-left: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .arte {
+        margin: 0;
+        padding: 1rem 7.4rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .teatro {
+        margin: 0;
+        padding: 1rem 7.8rem;
+        margin-left: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .fotografia {
+        margin: 0;
+        padding: 1rem 7.4rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .festivais {
+        margin: 0;
+        padding: 1rem 7.8rem;
+        margin-left: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .tecnologia {
+        margin: 0;
+        padding: 1rem 7.4rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .cinema {
+        margin: 0;
+        padding: 1rem 7.8rem;
+        margin-left: 2.4rem;
+    }
+
+    .design {
+        margin: 0;
+        padding: 1rem 7.4rem;
+        margin-right: 2rem;
+    }
+
+
+}
