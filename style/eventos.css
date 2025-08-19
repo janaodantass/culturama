@@ -226,9 +226,71 @@
 .botao__ver-mais1 {
     color: var(--branco);
     background-color: var(--preto);
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 1rem;
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-size: var(--titulo-terciario);
-    margin-left: 8rem;
+    text-align: center;
+    margin: 0 7.5rem;
+}
+
+.contexto__card-direito {
+    background-color: var(--fundo-cards); 
+    margin: 0 2.4rem 0 2.5rem;
+    padding-left: 0.5rem;
+}
+
+
+
+@media screen and (min-width: 720px) {
+    .cards__container {
+        display: grid;
+
+    }
+
+    .proximos__eventos:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .quarto__card:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .card__1 {
+        padding: 0;
+        padding-left: 2.4rem;
+    }
+
+    .contexto__card {
+        margin: 0;
+        margin-right: 2.5rem;
+        padding-right: 1rem;
+    }
+
+    .contexto__card-direito {
+        margin-left: 2.4rem;
+        background-color: var(--fundo-cards);
+        padding-right: 1rem;
+        margin-right: 1.1rem;
+        padding-left: 0.5rem;
+    }
+
+    .card__2 {
+        padding: 0;
+        padding-right: 1.5rem;
+    }
+
+    .card__3 {
+        padding: 0;
+        padding-left: 2.4rem;
+        display: block;
+    }
+
+    .card__4 {
+        padding: 0;
+    }
+
+    
 }
