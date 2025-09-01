@@ -1,13 +1,13 @@
-.footer {
+.bloco__footer {
     background-color: var(--preto);
-    display: flex;
-    margin-top: 2rem;
-    justify-content: space-between;
-    padding: 1rem 1.5rem;
 }
 
-.lista__footer {
-    padding-bottom: 0.5rem;
+
+.bloco__footer1 {
+    display: flex;
+    gap: 3rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .item__footer {
@@ -16,6 +16,22 @@
     font-size: 14px;
     font-weight: 300;
     text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+
+.bloco__footer2 {
+    display: flex;
+    gap: 6rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.bloco__footer3 {
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .titulo__footer {
@@ -23,8 +39,7 @@
     font-size: var(--titulo-secundario);
     font-family: var(--fonte-principal);
     font-weight: 400;
-    padding-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .contexto__imagemfooter {
@@ -34,6 +49,35 @@
 }
 
 .logo__footer {
-    padding-top: 10.5rem;
-    padding-left: 1.7rem;
+    margin-left: 1.7rem;
+    padding-top: 2.5rem;
+}
+
+
+
+
+@media screen and (min-width: 720px) {
+    .botao__ver-mais2 {
+        margin-bottom: 2rem;
+    }
+
+    .bloco__footer12 {
+        display: flex;
+    }
+
+    .bloco__footer1 {
+        padding-left: 2rem;
+    }
+
+    .bloco__footer2 {
+        margin-left: 3rem;
+    }
+
+    .bloco__footer3 {
+        padding-left: 2rem;
+    }
+
+    .logo2 {
+        padding-left: 18.5rem;
+    }
 }
